@@ -37,3 +37,6 @@ keymap('n', '<M-Up>', '<Esc>:m .-2<CR>==', options)
 keymap('i', '<M-k>', '<Esc>:m .-2<CR>==gi', options)
 keymap('v', '<M-j>', '<Esc>:m .>+1<CR>gv=gv', options)
 keymap('v', '<M-k>', '<Esc>:m .<-2<CR>gv=gv', options)
+
+
+--keymap('n', '<leader>e', ':Neotree toggle<cr>', options)

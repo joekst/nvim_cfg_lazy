@@ -17,9 +17,7 @@ return {
             {
                 "<leader>ff",
                 function()
-                    require("telescope.builtin").find_files({
-                        require("telescope.themes").get_dropdown{previewer = false}
-                    })
+                    require("telescope.builtin").find_files()
                 end,
                 desc = "Find File",
             },
@@ -30,6 +28,13 @@ return {
                 end,
                 desc = "Find open buffers",
             },
+            {
+                "<leader>fg",
+                function()
+                    require("telescope.builtin").git_files()
+                end,
+                desc = "Find git files",
+            }
         },
         opts = {
             defaults = {
