@@ -12,7 +12,7 @@ vim.opt.expandtab = true            -- Convert tabs to spaces.
 vim.opt.guicursor = "n-v-c:block,i:ver25-Cursor"  -- Change cursor when in insert mode
 vim.opt.guifont = "Hack\\ Nerd\\ Font\\ Mono:h18"
 vim.opt.hidden = true               -- Required to keep multiple buffers open.
-vim.opt.hlsearch = false
+vim.opt.hlsearch = true 
 vim.opt.ignorecase = true           -- Ignore case when searching.
 vim.opt.incsearch = true            -- Make search act like in modern browsers.
 vim.opt.isfname:append("@-@")

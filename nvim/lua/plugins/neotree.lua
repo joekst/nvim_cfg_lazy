@@ -15,20 +15,8 @@ return {
         })
         end,
         keys = {
-            {
-                "<leader>e",
-                function()
-                    require("neo-tree.command").execute({toggle = true, position = "left", dir = vim.loop.cwd() })
-                end,
-                desc = "Neotree"
-            },
-            {
-                "<leader>E",
-                function()
-                    require("neo-tree.command").execute({toggle = true, dir = vim.loop.cwd(), position = "float" })
-                end,
-                desc = "Neotree"
-            },
+            { "<leader>e", "<cmd>Neotree toggle left<cr>", desc = "Neotree" },
+            { "<leader>E", "<cmd>Neotree toggle float filesystem<cr>", desc = "Neotree" },
         },
     },
 }

@@ -1,9 +1,11 @@
 {
+  "Comment.nvim": { "branch": "master", "commit": "eab2c83a0207369900e92783f56990808082eac2" },
   "gruvbox.nvim": { "branch": "main", "commit": "b9d23a64dc8f22b4af8fa708d9fcbffbbf5747c6" },
   "lazy.nvim": { "branch": "main", "commit": "e28555950f8ceb52e86533df6df333dcd55fba04" },
   "neo-tree.nvim": { "branch": "v2.x", "commit": "8238865e1d9c61f1a260c290653f2c419503e0a9" },
   "nightfox.nvim": { "branch": "main", "commit": "aa793975d10dda69817190faea84e28eeb176934" },
   "nui.nvim": { "branch": "main", "commit": "d147222a1300901656f3ebd5b95f91732785a329" },
+  "nvim-treesitter": { "branch": "master", "commit": "f6df07be122de665fb363476cc3680c90f5bdf05" },
   "nvim-web-devicons": { "branch": "master", "commit": "ade34ca7d19543904b28b903e606be8930fb9ee3" },
   "oxocarbon.nvim": { "branch": "main", "commit": "f7b05feadc985f39639650067f1a333285cb4085" },
   "plenary.nvim": { "branch": "master", "commit": "9a0d3bf7b832818c042aaf30f692b081ddd58bd9" },

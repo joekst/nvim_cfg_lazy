@@ -38,5 +38,5 @@ keymap('i', '<M-k>', '<Esc>:m .-2<CR>==gi', options)
 keymap('v', '<M-j>', '<Esc>:m .>+1<CR>gv=gv', options)
 keymap('v', '<M-k>', '<Esc>:m .<-2<CR>gv=gv', options)
 
-
---keymap('n', '<leader>e', ':Neotree toggle<cr>', options)
+-- Remove search highlights
+keymap('n', '<C-n>', ':nohlsearch<cr>', options)
