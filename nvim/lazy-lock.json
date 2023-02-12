@@ -1,5 +1,6 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "eab2c83a0207369900e92783f56990808082eac2" },
+  "gitsigns.nvim": { "branch": "main", "commit": "f29f0b22fd66c910b892aae3bc18a4872c002738" },
   "gruvbox.nvim": { "branch": "main", "commit": "b9d23a64dc8f22b4af8fa708d9fcbffbbf5747c6" },
   "lazy.nvim": { "branch": "main", "commit": "e28555950f8ceb52e86533df6df333dcd55fba04" },
   "neo-tree.nvim": { "branch": "v2.x", "commit": "8238865e1d9c61f1a260c290653f2c419503e0a9" },
