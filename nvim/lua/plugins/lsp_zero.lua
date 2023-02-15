@@ -1,5 +1,4 @@
 return {
-
     "VonHeikemen/lsp-zero.nvim",
     dependencies = {
         -- LSP Support
@@ -22,7 +21,29 @@ return {
         local lsp = require("lsp-zero")
         lsp.preset("recommended")
 
-        
-    end,
+        lsp.setup_nvim_cmp({
+            preselect = 'none',
+            completion = {
+                completeopt = 'menu,menuone,noinsert,noselect',
+            },
+            formatting = {
+                fields = { 'menu', 'abbr', 'kind' },
 
+                format = function(entry, item)
+                    local menu_icon = {
+                        nvim_lsp = 'λ',
+                        luasnip = '⋗',
+                        buffer = 'Ω',
+                        path = '🖫',
+                        nvim_lua = '',
+                    }
+                    item.menu = menu_icon[entry.source.name]
+                    return item
+                end,
+            },
+        })
+
+        lsp.nvim_workspace() -- sets up support for lua
+        lsp.setup()
+    end,
 }
