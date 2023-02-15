@@ -13,6 +13,7 @@ return {
             { "<leader>S", "<cmd>Telescope live_grep grep_open_files=true theme=ivy<cr>", desc = "Search in open files" },
             { "<leader>s", "<cmd>Telescope live_grep theme=ivy<cr>", desc = "Search in all files" },
             { "<leader>*", "<cmd>Telescope grep_string grep_open_files=true theme=ivy<cr>", desc = "Search word under cursor in open files" },
+            { "<C-f>", "<cmd>Telescope current_buffer_fuzzy_find<cr>", desc = "Search current buffer fuzzylike." },
         },
         opts = {
             defaults = {
