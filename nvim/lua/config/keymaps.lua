@@ -15,7 +15,7 @@ keymap("n", "<S-TAB>", ":bp<cr>", options)
 keymap('n', '<C-up>', ':cprev<CR>', options)
 keymap('n', '<C-down>', ':cnext<CR>', options)
 
--- Open and close the quickfix window.
+-- Open and close and navigate the quickfix window.
 keymap('n', '<C-q><C-q>', ':cclose<CR>', options)
 keymap('n', '<C-q>', ':copen<CR>', options)
 

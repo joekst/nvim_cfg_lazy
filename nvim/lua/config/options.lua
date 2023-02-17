@@ -1,3 +1,6 @@
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 vim.opt.autoindent = true           -- Good autoindent.
 vim.opt.background = 'dark'         -- Tell vim what the background colors look like.
 vim.opt.backup = false              --
